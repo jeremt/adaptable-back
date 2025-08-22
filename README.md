@@ -31,6 +31,8 @@ npm install # installe automatiquement les packages déjà présents dans packag
 
 4. Copier le .env.example en .env et remplir la variable `DATABASE_URL` à partir de la connectionString (depuis neon par exemple)
 
+![main_large](https://github.com/user-attachments/assets/0151d894-1f9a-485f-a2b5-789680b5a97e)
+
 ## Test
 
 Pour tester que le projet fonctionne il faut démarrer le projet avec la commande `node index.js`. Attention si tu veux que le serveur soit mis à jour à chaque changement de ton code, tu peux ajouter l'option `--watch` :
@@ -52,6 +54,8 @@ Pour la route `PATCH /todos/:id` (avec l'id 1 et completed = true) :
 ```
 curl -X PATCH http://localhost:3000/todos/1 -H "Content-Type: application/json" -d '{"completed": true}'
 ```
+
+![GIF Recording 2025-08-22 at 1 32 35 PM](https://github.com/user-attachments/assets/2864fd9c-20ce-42c4-8d4b-abc1a9fb6153)
 
 ## Adaptation
 
